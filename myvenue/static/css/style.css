@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #e0e0e0 ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.brand-logo {
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+
+main { 
+    background-image: url(../css/images/rocco-dipoppa-_uDj_lyPVpA-unsplash.jpg);
+      /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.main-logo {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
