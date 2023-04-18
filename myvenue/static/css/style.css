@@ -18,20 +18,23 @@ body {
     text-transform: uppercase;
   }
 
-main { 
-    background-image: url(../css/images/rocco-dipoppa-_uDj_lyPVpA-unsplash.jpg);
-      /* Full height */
-  height: 100%;
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
 
 .main-logo {
     text-transform: uppercase;
     font-weight: 700;
-    color: white;
+    color: rgb(47, 49, 74);
+}
+
+.hero-section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16rem;
+  padding-left: 4rem;
+}
+
+.event-form {
+  max-width: 75vw;
 }

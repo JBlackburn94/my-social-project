@@ -4,9 +4,14 @@ from myvenue import app, db
 
 @app.route("/")
 def home():
-    return render_template("base.html")
+    return render_template("home.html")
 
 
-@app.route("/listings")
-def listings():
-    return render_template("listings.html")
+@app.route("/my_events")
+def my_events():
+    return render_template("my_events.html")
+
+
+@app.route("/add_event")
+def add_event():
+    return render_template("add_event.html")
