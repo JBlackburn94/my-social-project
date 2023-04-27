@@ -3,10 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   M.Sidenav.init(sidenav);
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  let caraousel = document.querySelectorAll('.carousel');
-  M.Carousel.init(caraousel);
-});
+
 
 
 

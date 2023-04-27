@@ -1,5 +1,6 @@
 from flask import render_template
 from myvenue import app, db
+from myvenue.models import Event, Event_Details
 
 
 @app.route("/")

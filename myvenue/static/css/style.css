@@ -67,6 +67,11 @@ body {
   max-width: 75vw;
 }
 
+.event-button {
+  border-radius: 10px;
+  background-color: rgb(247, 117, 138);
+}
+
 @media  screen and (max-width: 800px) {
   .hero-container {
     display: flex;
